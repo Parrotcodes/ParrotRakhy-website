@@ -1,0 +1,290 @@
+/* Amazon Cart */
+footer{
+    margin-bottom: 0px;
+    text-align: center;
+    text-shadow: 0px 0px 5px green;
+}
+
+#cart {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 20px;
+    width: 40%;
+    transition: background-color 0.5s,border-radius 0.15s;
+}
+#cart:hover{
+    background-color: yellowgreen;
+    border-radius: 20px 40px;
+    box-shadow: 10px 10px 20px 0.5 solid gainsboro;
+    
+}
+
+h4 {
+    color: green;
+}
+
+
+/* Buttons */
+
+#ac,
+#buy,#l1,#l2 {
+    border: none;
+    text-align: center;
+    padding: 10px;
+    width: 40%;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+#l1{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    font-weight: 450;
+    font-size: 15px;
+    padding:10px;
+    width: auto;
+}
+
+#ac {
+    background-color: rgb(255, 216, 20);
+}
+
+#buy {
+    background-color: rgb(255, 164, 28);
+}
+
+#l2,#btstrp2{
+    width: 75px;
+    color: rgb(10, 102, 194);
+    border: 1px solid rgb(10, 102, 194);
+    background-color: white;
+    font-weight: 600;
+}
+#l2:hover{
+    background-color: rgba(103, 140, 221, 0.685);
+}
+/* #Linkd{
+    border: 1px solid rgb(129, 127, 127);
+    margin-right: 55%;
+    text-align: center;
+    background-color: azure;
+    width: auto;
+    
+    
+} */
+#btstrp{
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    font-weight: 600;
+    width: 105px;
+    border: none;  
+    cursor: pointer;    
+}
+#btstrp:hover{
+    opacity: 0.8;
+}
+#btstrp2{
+    background-color: none;
+    color: rgb(108, 117, 125);
+    border-color: rgb(108, 117, 125);
+    padding: 12px;
+    border-radius: 10px;
+    width: 105px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+#btstrp2:hover{
+    background-color: rgba(145, 146, 143, 0.5);
+    color: white;
+}
+#uber,#git{
+    border:10px solid rgb(187, 183, 183);
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    width: auto;
+    cursor: pointer;
+}
+#git{
+    background-color: rgb(46, 164, 79);
+    font-weight: 600;
+    font-size: 15px;
+    border: 10px solid rgb(245, 240, 240);
+    transition: background-color 0.15s;
+    }
+#git:hover{
+    background-color: rgb(50, 150, 91);
+}
+.btns{
+    background-color: skyblue;
+    padding: 5px;
+    text-align: center;
+    margin:10px;
+    justify-content: space-around;
+
+}
+#boot{
+    margin: 5px;
+}
+
+/* Images */
+
+.dog-img{
+    width: 200px;
+    border: 2px solid red;
+    object-fit: contain;
+    /* object-position: left; */
+}
+
+.dog-img1{
+    width: 200px;
+    border-radius: 50px 50px;
+}
+
+.dog-img2{
+    width: 200px;
+    border-radius: 50%;
+}
+
+#i1,#i2{
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10px 10px;
+    border-color: aliceblue;
+    margin-left: 12px;
+}
+
+#i2,#fname,#mail{
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 0px 0px 6px #888888;
+    padding-right: 140px;
+    font-weight: 600;
+    border: none;
+    
+    
+    
+
+}
+.email{
+    font-size: 15px;
+    color: #888888;
+    margin-left: 12px;
+}
+.email input{
+    padding: 10px;
+    padding-right: 25px;
+    border: 2px black 0.6;
+    border-radius: 5px 5px;
+}
+
+/* blocks */
+.blocks{
+    width: 300px;
+}
+.blocks input{
+    margin: 5px;
+}
+
+.chat{
+    display: inline-block;
+    width: 200px;
+    line-height: 20px;
+    vertical-align: middle;
+}
+.google{
+    width: 40%;
+ display: inline-block;   
+ justify-content: center;
+}
+#go{
+    width: 200px;
+    justify-content: center;
+    margin-left: 35%;
+    object-fit: cover;
+}
+#mail{
+    display: block;
+    border: none;
+    width: 40%;
+
+    
+}
+
+#bsign{
+    width: 300px;
+    background-color: blue;
+    border: none;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-weight: 600;
+    font-size: larger;
+    box-shadow: 5px 5px 5px rgb(140, 139, 235);
+    cursor: pointer;
+    width: 30%;
+    border-radius: 10%;
+}
+
+.box{
+    width: 300px;
+    background-color: red;
+    margin: 5px;
+    height: auto;
+}
+
+#thumb{
+    vertical-align: top;
+    width: 300px;
+}
+#vtitle{
+    width: 300px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.divblock{
+    display: inline-block;
+    width: 300px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.divblock p{
+    padding-left: 20px;
+}
+.divblock:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 15px gray;
+    border-radius: 10px;
+}
+/* Page Next numbers line */
+
+.page-next{
+    text-align: center;
+    margin: 25px;
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 20px;
+    
+}
+
+.page-next button{
+    font-size: 20px;
+    margin: 10px;
+    background-color: skyblue;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.page-next ul{
+    font-size: 20px;
+}
+
+.page-next li{
+    list-style: none;
+    display: inline;
+}

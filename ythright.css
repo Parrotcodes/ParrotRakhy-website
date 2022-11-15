@@ -1,0 +1,16 @@
+.right-section{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    margin-right: 24px;
+}
+
+.ytupload,.ytapps,.ytnotifications,.ytprofile{
+    height: 36px;
+    cursor: pointer;
+}
+.ytprofile{
+    border-radius: 18px;
+}

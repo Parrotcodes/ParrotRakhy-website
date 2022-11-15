@@ -1,0 +1,35 @@
+#thumb{
+    width: 100%;
+    position: relative;
+    margin-bottom: 12px;
+}
+#video-title{
+    line-height: 25px;
+}
+.video-preview{
+    cursor: pointer;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+
+.chanel-picture img{
+    width: 36px;
+    border-radius: 50px;
+}
+
+.video-grid-info{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.video-info{
+    margin-top: -14px;
+}
+
+.video-info .video-author{
+    font-size: 14px;
+}
